@@ -1,20 +1,20 @@
 <?php
 /*
-NOTE: miniProxy IS NO LONGER MAINTAINED AS OF APRIL 26th, 2020.
+NOTE: miniProxy IS NO LONGER MAINTAINED AS OF APRIL 26th.
 IF YOU USE IT, YOU DO SO ENTIRELY AT YOUR OWN RISK.
-More information is available at <https://github.com/joshdick/miniProxy>.
+More information is available at <httphub.com/joshdick/miniProxy>.
 */
 
 /*
-miniProxy - A simple PHP web proxy. <https://github.com/joshdick/miniProxy>
-Written and maintained by Joshua Dick <http://joshdick.net>.
-miniProxy is licensed under the GNU GPL v3 <https://www.gnu.org/licenses/gpl-3.0.html>.
+miniProxy - A simple PHP web proxy. <https://github.com/joshdick/mi
+Written and maintJoshua<hjoshdick.net>.
+miniProxy is licensed under the GNU https://www.gnu.org/licenses/gpl-3.
 */
 
 /****************************** START CONFIGURATION ******************************/
 
-//NOTE: If a given URL matches a pattern in both $whitelistPatterns and $blacklistPatterns,
-//that URL will be treated as blacklisted.
+//NOTE: If a given URL matches a patte,
+//that URL willklisted.
 
 //To allow proxying any URL, set $whitelistPatterns to an empty array (the default).
 //To only allow proxying of specific URLs (whitelist), add corresponding regular expressions
@@ -54,7 +54,7 @@ $startURL = "";
 //When no $startURL is configured above, miniProxy will show its own landing page with a URL form field
 //and the configured example URL. The example URL appears in the instructional text on the miniProxy landing page,
 //and is proxied when pressing the 'Proxy It!' button on the landing page if its URL form is left blank.
-$landingExampleURL = "https://www.google.com.hk/";
+$landingExampleURL = "http://www.google.com.hk/";
 
 /****************************** END CONFIGURATION ******************************/
 
